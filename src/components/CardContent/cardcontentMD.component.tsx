@@ -55,9 +55,11 @@ export default function CardContentMD({ post, category }: IContentCard) {
                     {post.fields.category}
                   </p>
                 ) : (
-                  <p className="xl:text-xl lg:text-lg font-semibold md:text-lg text-start">
-                    {category?.fields.name}
-                  </p>
+                  <Link href={"/Categories/" + category?.fields.name}>
+                    <p className="xl:text-xl lg:text-lg font-semibold md:text-lg text-start">
+                      {category?.fields.name}
+                    </p>
+                  </Link>
                 )}
               </div>
             </div>
