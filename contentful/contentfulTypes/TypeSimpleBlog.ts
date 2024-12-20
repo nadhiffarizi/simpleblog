@@ -17,6 +17,7 @@ export type ITypeSimpleBlog = {
         author: EntryFieldTypes.Symbol;
         category: EntryFieldTypes.Symbol;
         article: EntryFieldTypes.RichText;
+        headlineImage: Asset;
     }
 }
 

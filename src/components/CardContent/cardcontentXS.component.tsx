@@ -7,9 +7,12 @@ import { Entry } from "contentful";
 import getMaxChar from "../../../utils/getMaxChar";
 import { IContentfulAsset } from "../../../contentful/contentfulTypes/TypeSimpleBlog";
 import Link from "next/link";
+import { ITypeSimpleBlog } from "../../../contentful/contentfulTypes/TypeSimpleBlog";
 
 interface IContentCard {
-  post?: Entry<TypeSimpleBlog, undefined, string>;
+  post?:
+    | Entry<ITypeSimpleBlog, undefined, string>
+    | Entry<TypeSimpleBlog, undefined, string>;
   category?: Entry<TypeCategorySimpleBlog, undefined, string>;
 }
 
