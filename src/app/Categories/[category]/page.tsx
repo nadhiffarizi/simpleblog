@@ -4,11 +4,7 @@ import Navbar from "@/components/navbar.component";
 import * as React from "react";
 import { useParams } from "next/navigation";
 import { useState } from "react";
-import {
-  TypeSimpleBlogFields,
-  TypeSimpleBlog,
-} from "../../../../contentful/contentfulTypes";
-import RichText from "@/components/RichText/richtext.component";
+import { TypeSimpleBlog } from "../../../../contentful/contentfulTypes";
 import getPostsByCategory from "../../../../utils/getPostsByCategory";
 import { useEffect } from "react";
 import { Entry } from "contentful";
@@ -16,7 +12,6 @@ import CardContentXS from "@/components/CardContent/cardcontentXS.component";
 import CardContentMD from "@/components/CardContent/cardcontentMD.component";
 import HeaderCategoryMD from "@/components/HeaderDetail/headercategoryMD.component";
 import HeaderCategoryXS from "@/components/HeaderDetail/headercategoryXS.component";
-import { EntryFields } from "contentful";
 import { ITypeSimpleBlog } from "../../../../contentful/contentfulTypes/TypeSimpleBlog";
 
 export default function CategoryPosts() {

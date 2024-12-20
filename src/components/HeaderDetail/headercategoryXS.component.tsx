@@ -1,14 +1,11 @@
 "use client";
 import * as React from "react";
-import { usePathname } from "next/navigation";
-import IPagePosts from "@/app/Interface/PagePosts.interface";
 
 export default function HeaderCategoryXS({
   typeHeader,
 }: {
   typeHeader: string;
 }) {
-  const pathname = usePathname();
   return (
     <div className="flex items-center justify-center w-full h-[200px] bg-[#F4F0F8]">
       <div className="w-5/6 h-2/3 ">

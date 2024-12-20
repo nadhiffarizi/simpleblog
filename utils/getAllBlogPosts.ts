@@ -1,5 +1,5 @@
 import contentfulClient from "../contentful/contentfulClient";
-import { TypeSimpleBlog, TypeSimpleBlogFields } from "../contentful/contentfulTypes";
+import { TypeSimpleBlog } from "../contentful/contentfulTypes";
 const getAllBlogPosts = async () => {
 
     try {
@@ -8,7 +8,7 @@ const getAllBlogPosts = async () => {
             limit: 20
         });
 
-        console.log("data in getAllBlogs", data)
+        // console.log("data in getAllBlogs", data)
         return data
 
 

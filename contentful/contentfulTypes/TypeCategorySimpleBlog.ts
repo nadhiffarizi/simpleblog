@@ -1,4 +1,4 @@
-import type { Asset, Entry, EntryFields, EntrySkeletonType, LocaleCode, Locale, ChainModifiers } from "contentful";
+import type { Asset, Entry, EntryFields, EntrySkeletonType, LocaleCode, ChainModifiers } from "contentful";
 
 export interface TypeCategorySimpleBlogFields {
     name: EntryFields.Symbol;

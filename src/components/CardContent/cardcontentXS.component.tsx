@@ -1,4 +1,3 @@
-import IPagePosts from "@/app/Interface/PagePosts.interface";
 import * as React from "react";
 import {
   TypeCategorySimpleBlog,

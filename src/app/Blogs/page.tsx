@@ -2,8 +2,6 @@ import * as React from "react";
 import HeaderCategoryXS from "@/components/HeaderDetail/headercategoryXS.component";
 import HeaderCategoryMD from "@/components/HeaderDetail/headercategoryMD.component";
 import Navbar from "@/components/navbar.component";
-import { EntryCollection } from "contentful";
-import { TypeSimpleBlog } from "../../../contentful/contentfulTypes";
 import getAllBlogPosts from "../../../utils/getAllBlogPosts";
 import IPagePosts from "../Interface/PagePosts.interface";
 import getRandomEntries from "../../../utils/getRandomEntries";

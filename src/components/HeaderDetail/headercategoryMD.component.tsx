@@ -26,7 +26,7 @@ export default function HeaderCategoryMD({
             {/**row 3 */}
 
             <p className="text-base font-semibold text-[#222536]">
-              {pathname.replaceAll("/", "")}
+              {typeHeader}
             </p>
           </div>
         </div>

@@ -1,10 +1,6 @@
 "use client";
 import Footer from "@/components/footer.component";
 import Navbar from "@/components/navbar.component";
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-import { Entry } from "contentful";
-import { TypeSimpleBlog } from "../../../../../contentful/contentfulTypes";
-import { Document as RichTextDocument } from "@contentful/rich-text-types";
 import * as React from "react";
 import getArticle from "../../../../../utils/getArticle";
 import { useParams } from "next/navigation";

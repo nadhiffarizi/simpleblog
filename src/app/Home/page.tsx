@@ -4,7 +4,6 @@ import HeroSectionXS from "@/components/HeroSection/herosectionXS.component";
 import HeroSectionMD from "@/components/HeroSection/herosectionMD.component";
 import CardContentXS from "@/components/CardContent/cardcontentXS.component";
 import CardContentMD from "@/components/CardContent/cardcontentMD.component";
-import Footer from "@/components/footer.component";
 import getRandomEntry from "../../../utils/getRandomEntry";
 import IPagePosts from "../Interface/PagePosts.interface";
 import getRandomEntries from "../../../utils/getRandomEntries";

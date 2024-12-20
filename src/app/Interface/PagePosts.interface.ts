@@ -1,4 +1,4 @@
-import { Entry, EntryCollection, EntrySkeletonType } from "contentful";
+import { Entry } from "contentful";
 import { TypeCategorySimpleBlog, TypeSimpleBlog } from "../../../contentful/contentfulTypes";
 
 interface IPagePosts {

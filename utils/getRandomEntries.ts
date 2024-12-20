@@ -1,6 +1,5 @@
 import { Entry } from "contentful";
 import { TypeSimpleBlog } from "../contentful/contentfulTypes";
-import { TypeCategorySimpleBlog } from "../contentful/contentfulTypes";
 
 // random number of entries
 const getRandomEntries = (arr: Entry<TypeSimpleBlog, undefined, string>[] | undefined, limit: number) => {

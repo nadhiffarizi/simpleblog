@@ -1,5 +1,5 @@
 import contentfulClient from "../contentful/contentfulClient";
-import { TypeCategorySimpleBlog, TypeCategorySimpleBlogFields } from "../contentful/contentfulTypes";
+import { TypeCategorySimpleBlog } from "../contentful/contentfulTypes";
 const getCategoriesName = async () => {
 
     try {

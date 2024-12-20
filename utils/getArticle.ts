@@ -1,6 +1,5 @@
-import { Entry } from "contentful";
 import contentfulClient from "../contentful/contentfulClient";
-import { TypeSimpleBlog, TypeSimpleBlogFields } from "../contentful/contentfulTypes";
+import { TypeSimpleBlog } from "../contentful/contentfulTypes";
 const getArticle = async (slug: string) => {
 
     try {
