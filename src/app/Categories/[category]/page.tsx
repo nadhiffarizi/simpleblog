@@ -76,11 +76,18 @@ export default function CategoryPosts() {
             )}
           </div>
           <div className="md:block xs:hidden w-11/12 h-full ">
-            {posts?.map((post: any, index: number) => {
-              return (
-                <CardContentMD key={index} post={post} category={undefined} />
-              );
-            })}
+            {posts?.map(
+              (
+                post:
+                  | Entry<ITypeSimpleBlog, undefined, string>
+                  | Entry<TypeSimpleBlog, undefined, string>,
+                index: number
+              ) => {
+                return (
+                  <CardContentMD key={index} post={post} category={undefined} />
+                );
+              }
+            )}
           </div>
         </div>
       </div>
